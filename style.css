@@ -16,7 +16,6 @@ body {
     flex-direction: column;
 }
 
-
 /*Layout for header
 */
 header {
@@ -45,5 +44,9 @@ header .header--banner-nav ul a {
     text-decoration: none;
     padding: 7px;
     border-radius: 10px;
-
+}
+/*Header subject contents when hovered
+*/
+header .header--banner-nav ul a:hover {
+    background-color: #c2c1a5;
 }
